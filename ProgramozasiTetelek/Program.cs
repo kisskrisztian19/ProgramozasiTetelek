@@ -27,11 +27,25 @@ namespace ProgramozasiTetelek
             Console.WriteLine("Összegzés tétele:");
             Console.WriteLine(osszeg);
         }
+        static void Megszamolas()
+        {
+            int szamolas = 0;
+            for (int i = 0; i < tomb.Length; i++)
+            {
+                if (tomb[i]%3 == 0)
+                {
+                    szamolas++;
+                }   
+            }
+            Console.WriteLine($"Hárommal osztható számok: {szamolas}");
+        }
         static void Main(string[] args)
         {
             TombKiiras();
             
             Osszegzes();
+
+            Megszamolas();
             Console.ReadKey();
         }
     }

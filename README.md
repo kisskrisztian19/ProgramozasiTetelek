@@ -13,3 +13,7 @@
   - Osszegzes metódus létrehozása
     - Összegzés tétele a tömbön
     - Eredmény kiírása a konzolra
+## Megszámolás
+  - Megszamolas metódus
+    - Hány 3-al osztható elem van a tömbben
+    - Eredmény kiírása a konzolra
