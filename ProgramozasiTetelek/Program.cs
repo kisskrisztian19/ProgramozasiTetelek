@@ -62,8 +62,13 @@ namespace ProgramozasiTetelek
             else Console.WriteLine("Nincs 69.");
         }
         static void Kivalasztas()
-        { 
-            
+        {
+            int i = 0;
+            while (i<tomb.Length && tomb[i] != 50)
+            {
+                i++;
+            }
+            Console.WriteLine($"Az 50 indexe: {i}");
         }
         static void Main(string[] args)
         {
@@ -74,6 +79,8 @@ namespace ProgramozasiTetelek
             Megszamolas();
 
             Eldontes();
+
+            Kivalasztas();
             Console.ReadKey();
         }
     }

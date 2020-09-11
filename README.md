@@ -21,3 +21,6 @@
   - Eldontes metódus
     - Van-e a tömbben 69
     - Eredmény kiírása a konzolra
+## Kiválasztás
+  - Kiválasztás metódus
+    - Kiírni az 50 helyét a tömbben
