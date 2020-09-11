@@ -27,3 +27,5 @@
 ## Keresés (lineáris)
   - Kereses metódus
     - Kiírni a talált elemet
+##Maximum metódus
+  - Kiírni a legnagyobb elemet

@@ -87,6 +87,20 @@ namespace ProgramozasiTetelek
                 Console.WriteLine("Nincs ilyen szám.");
             }
         }
+        static void MaxKereses()
+        {
+            int i = 0;
+            int legnagyobb = 0;
+            while (i < tomb.Length)
+            {
+                if (tomb[i] > legnagyobb)
+                {
+                    legnagyobb = tomb[i];
+                }
+                i++;
+            }
+            Console.WriteLine($"A legnagyobb elem: {legnagyobb}");
+        }
         static void Main(string[] args)
         {
             TombKiiras();
@@ -100,6 +114,8 @@ namespace ProgramozasiTetelek
             Kivalasztas();
 
             Kereses();
+
+            MaxKereses();
             Console.ReadKey();
         }
     }
