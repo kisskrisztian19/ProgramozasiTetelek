@@ -24,3 +24,6 @@
 ## Kiválasztás
   - Kiválasztás metódus
     - Kiírni az 50 helyét a tömbben
+## Keresés (lineáris)
+  - Kereses metódus
+    - Kiírni a talált elemet

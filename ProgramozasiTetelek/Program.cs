@@ -70,6 +70,23 @@ namespace ProgramozasiTetelek
             }
             Console.WriteLine($"Az 50 indexe: {i}");
         }
+        static void Kereses()
+        {
+            int i = 0;
+            Console.Write($"Add meg a számot: "); int szam = int.Parse(Console.ReadLine());
+            while (i < tomb.Length && tomb[i] != szam)
+            {
+                i++;
+            }
+            if (i < tomb.Length)
+            {
+                Console.WriteLine($"{szam} indexe: {i}");
+            }
+            else
+            {
+                Console.WriteLine("Nincs ilyen szám.");
+            }
+        }
         static void Main(string[] args)
         {
             TombKiiras();
@@ -81,6 +98,8 @@ namespace ProgramozasiTetelek
             Eldontes();
 
             Kivalasztas();
+
+            Kereses();
             Console.ReadKey();
         }
     }
