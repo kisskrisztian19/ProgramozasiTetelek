@@ -8,7 +8,7 @@ namespace ProgramozasiTetelek
 {
     class Program
     {
-        static int[] tomb = new int[] { 12, 7, 2, 4, 45, 99, 1, 8, 95, 50 };
+        static int[] tomb = new int[] { 12, 7, 2, 4, 45, 99, 1, 8, 95, 50};
         static void TombKiiras()
         {
             for (int i = 0; i < tomb.Length; i++)
@@ -39,6 +39,32 @@ namespace ProgramozasiTetelek
             }
             Console.WriteLine($"Hárommal osztható számok: {szamolas}");
         }
+        static void Eldontes()
+        {
+            int y = 0;
+            Console.WriteLine("Eldöntés tétele");
+            //while (y < tomb.Length && tomb[y] != 69)
+            //{
+            //    y++;
+            //}
+
+            for (y = 0; y < tomb.Length; y++)
+            {
+                if (tomb[y] == 69)
+                {
+                    break;
+                }
+            }
+            if (y < tomb.Length)
+            {
+                Console.WriteLine("Van 69.");
+            }
+            else Console.WriteLine("Nincs 69.");
+        }
+        static void Kivalasztas()
+        { 
+            
+        }
         static void Main(string[] args)
         {
             TombKiiras();
@@ -46,6 +72,8 @@ namespace ProgramozasiTetelek
             Osszegzes();
 
             Megszamolas();
+
+            Eldontes();
             Console.ReadKey();
         }
     }

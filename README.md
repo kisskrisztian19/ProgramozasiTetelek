@@ -17,3 +17,7 @@
   - Megszamolas metódus
     - Hány 3-al osztható elem van a tömbben
     - Eredmény kiírása a konzolra
+## Eldöntés
+  - Eldontes metódus
+    - Van-e a tömbben 69
+    - Eredmény kiírása a konzolra
